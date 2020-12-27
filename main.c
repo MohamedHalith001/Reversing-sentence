@@ -1,3 +1,5 @@
+//To reverse a sentence using C
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,13 +15,13 @@ int main()
     for(i=len-1;i>=0;i--)
     {
         if(i==0){
-            printf("%c",str[i]);             //ip- one two three
+            printf("%c",str[i]);             
         }
         if(str[i]==' '||i==0){
             for(j=i+1;str[j]!=' '&&str[j]!='\0';j++){
                 printf("%c",str[j]);
             }
-            printf(" ");//yoyo i7
+            printf(" ");
             //printf("%d",i);
         }
 
